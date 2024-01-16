@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+                name="model"
+                type="com.treinetic.whiteshark.fragments.orderprocessingflow.redeemloyaltypoints.RedeemLoyaltyPointViewModel" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:id="@+id/bottomLoading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-7dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:indeterminate="true"
+                        android:indeterminateOnly="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingStart="15dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp">
+
+                <ImageView
+                        android:id="@+id/backBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?selectableItemBackground"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="5dp"
+                        android:src="@drawable/ic_keyboard_backspace_black_24dp" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Redeem Loyalty Points"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="25dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingTop="15dp"
+                        android:text="Total Points"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    <TextView
+                            android:id="@+id/availablEPoints"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_regular"
+                            android:paddingStart="15dp"
+                            android:paddingTop="15dp"
+                            android:text="@{model.totalPoints}"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                    <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="25dp"
+                            android:fontFamily="@font/roboto_regular"
+                            android:paddingTop="15dp"
+                            android:text=" Points"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/redeemProcessExpireTextField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingStart="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Expires on  2nd sept"
+                    android:textColor="@color/grey_color"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingStart="15dp"
+                    android:paddingTop="15dp"
+                    android:text="How much to redeem"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp">
+
+                <EditText
+                        android:id="@+id/points"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/login_textfield_bg"
+                        android:backgroundTint="@color/textField"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint=""
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15sp"
+                        android:theme="@style/EditTextTheme" />
+
+                <TextView
+                        android:id="@+id/pointsWorth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="25dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingStart="15dp"
+                        android:paddingTop="15dp"
+                        android:text="@{model.selectedPointValue}"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+            <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                    android:id="@+id/redeemBtn"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/circular_border_shape"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Redeem"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/buttonTextSize" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

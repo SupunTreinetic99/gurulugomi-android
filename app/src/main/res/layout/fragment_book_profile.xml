@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/bookRootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context="com.treinetic.whiteshark.fragments.bookprofile.BookProfileFragment">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/book_profile_bkg"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false"
+                        android:minHeight="275dp"
+                        android:orientation="horizontal">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingStart="20dp"
+                            android:paddingTop="25dp"
+                            android:paddingEnd="0dp">
+
+                        <TextView
+                                android:id="@+id/bookName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:padding="5dp"
+                                android:textColor="@color/white"
+                                android:textSize="22sp" />
+
+                        <TextView
+                                android:id="@+id/bookAuthor"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:textColor="@color/bookSubText"
+                                android:textSize="15sp" />
+
+
+                        <TextView
+                                android:id="@+id/bookCategories"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:textColor="@color/bookSubText"
+                                android:textSize="15sp" />
+
+                        <TextView
+                                android:id="@+id/bookLanguage"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:textColor="@color/bookSubText"
+                                android:textSize="15sp"
+                                android:visibility="gone" />
+
+                        <TextView
+                                android:id="@+id/bookISBN"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:textColor="@color/bookSubText"
+                                android:textSize="15sp" />
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:orientation="horizontal">
+
+                            <RatingBar
+                                    android:id="@+id/rateBar"
+                                    style="?android:attr/ratingBarStyleSmall"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:numStars="5"
+                                    android:progressTint="@color/white"
+                                    android:rating="3.5" />
+
+                            <TextView
+                                    android:id="@+id/rateValue"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:orientation="vertical">
+
+
+                            <TextView
+                                    android:id="@+id/bookDiscount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/bookSubText"
+                                    android:textSize="12sp" />
+
+
+                            <TextView
+                                    android:id="@+id/bookPrice"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    android:textColor="@color/white"
+                                    android:textSize="17sp" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:orientation="vertical"
+                            android:paddingTop="20dp">
+
+
+                        <com.lijiankun24.shadowlayout.ShadowLayout
+                                android:id="@+id/bookShadow"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="-10dp"
+                                app:shadowColor="#66000000"
+                                app:shadowDx="10dp"
+                                app:shadowDy="20dp"
+                                app:shadowRadius="10dp"
+                                app:shadowShape="rectangle"
+                                app:shadowSide="all">
+
+                            <FrameLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                <ImageView
+                                        android:id="@+id/bookImage"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:contentDescription="@null"
+                                        android:transitionName="@string/share_element_transtition_name" />
+
+                                <com.treinetic.whiteshark.customview.OfferView
+                                        android:id="@+id/offerView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="right">
+
+                                </com.treinetic.whiteshark.customview.OfferView>
+                            </FrameLayout>
+
+
+                        </com.lijiankun24.shadowlayout.ShadowLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                    <TextView
+                            android:id="@+id/topRatersCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="20dp"
+                            android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                        <com.lijiankun24.shadowlayout.ShadowLayout
+                                android:id="@+id/btnPurchaseLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:visibility="invisible"
+                                app:shadowColor="#66000000"
+                                app:shadowDx="5dp"
+                                app:shadowDy="10dp"
+                                app:shadowRadius="10dp"
+                                app:shadowShape="rectangle"
+                                app:shadowSide="all">
+
+
+                            <mehdi.sakout.fancybuttons.FancyButton
+                                    android:id="@+id/btnPurchase"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="40dp"
+                                    android:layout_marginStart="5dp"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    fancy:fb_defaultColor="@color/colorPrimary"
+                                    fancy:fb_iconPosition="left"
+                                    fancy:fb_radius="4dp"
+                                    fancy:fb_text="ADD TO CART"
+                                    fancy:fb_textColor="@color/white" />
+
+
+                        </com.lijiankun24.shadowlayout.ShadowLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingStart="0dp"
+                            android:paddingEnd="20dp">
+
+
+                        <com.treinetic.whiteshark.ImageContainer
+                                android:id="@+id/container"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="end"
+                                android:orientation="horizontal" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/bottomLoading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-7dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:indeterminate="true"
+                        android:indeterminateOnly="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/moreInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0"
+                    android:orientation="vertical">
+                <!--DESCRIPTION-->
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/description"
+                            android:textColor="@color/colorTittle"
+                            android:textSize="18sp" />
+
+                    <com.codesgood.views.JustifiedTextView
+                            android:id="@+id/description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/colorText" />
+
+                </LinearLayout>
+
+                <!--PROPERTIES OF THE BOOKS-->
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp">
+
+                        <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:contentDescription="@null"
+                                android:src="@drawable/icon_type" />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/type" />
+
+                        <TextView
+                                android:id="@+id/type"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textAlignment="textEnd" />
+
+                    </LinearLayout>
+
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/colorSeparation" />
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                        <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:contentDescription="@null"
+                                android:src="@drawable/icon_pages" />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="1"
+                                android:text="@string/pages" />
+
+                        <TextView
+                                android:id="@+id/pages"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_weight="1"
+                                android:textAlignment="textEnd" />
+                    </LinearLayout>
+
+
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/colorSeparation"
+                            android:visibility="gone" />
+
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                        <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:contentDescription="@null"
+                                android:src="@drawable/isbn_icon" />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="1"
+                                android:text="@string/isbn" />
+
+                        <TextView
+                                android:id="@+id/isbnCode"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_weight="1"
+                                android:textAlignment="textEnd" />
+                    </LinearLayout>
+
+
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/colorSeparation" />
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="22dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                        <ImageView
+                                android:id="@+id/hardCopyIcon"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:contentDescription="@null"
+                                android:src="@drawable/icon_hardcpy" />
+
+                        <TextView
+                                android:id="@+id/hardCopy"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="1"
+                                android:text="@string/hard_copy" />
+
+                        <TextView
+                                android:id="@+id/hardCopyBtn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_weight="1"
+                                android:text="@string/request"
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <View
+                            android:id="@+id/hardCopyBottomBorder"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/colorSeparation" />
+
+                    <LinearLayout
+                            android:id="@+id/translatorLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="22dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="horizontal">
+
+                        <ImageView
+                                android:id="@+id/translatorIco"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:contentDescription="@null"
+                                android:src="@drawable/icon_book_publishing" />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="1"
+                                android:text="@string/translators" />
+
+                        <TextView
+                                android:id="@+id/translator"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_weight="1"
+                                android:textAlignment="textEnd" />
+                    </LinearLayout>
+
+                    <View
+                            android:id="@+id/translatorBottomBorder"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/colorSeparation" />
+
+                </LinearLayout>
+
+                <!--MY REVIEW -->
+                <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                            android:id="@+id/loadingView"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:padding="20dp"
+                            android:visibility="gone"
+                            android:background="@color/pureWhite">
+
+                        <ProgressBar
+                                style="?android:attr/progressBarStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/progressBarViewPager"/>
+                        <TextView
+                                android:text="Loading ..."
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/title"
+                                android:textAlignment="center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:id="@+id/review_section"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="50dp"
+                            android:orientation="vertical">
+
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:orientation="horizontal"
+                                android:paddingStart="20dp"
+                                android:paddingEnd="20dp">
+
+
+                            <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    android:text="@string/top_review"
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/colorTittle"
+                                    android:textSize="18sp" />
+
+                            <!--ALL REVIEW-->
+                            <TextView
+                                    android:id="@+id/allReviews"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    android:text="@string/allReviews"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                        <androidx.viewpager.widget.ViewPager
+                                android:id="@+id/viewPager"
+                                android:layout_width="match_parent"
+                                android:layout_height="270dp"
+                                android:layout_marginTop="50dp" />
+
+                        <com.google.android.material.tabs.TabLayout
+                                android:id="@+id/pageIndicator"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:tabBackground="@drawable/tab_selector"
+                                app:tabGravity="center"
+                                app:tabIndicatorHeight="0dp"
+                                app:tabPaddingEnd="8dp"
+                                app:tabPaddingStart="8dp" />
+
+
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+
+            android:id="@+id/bottomSection"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:translationY="?attr/actionBarSize">
+        <!---->
+<!--        <TextView-->
+<!--                android:id="@+id/bottomBarText"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_marginStart="1dp"-->
+<!--                android:layout_marginEnd="1dp"-->
+<!--                android:layout_weight="2"-->
+<!--                android:fontFamily="@font/product_sans_regular"-->
+<!--                android:gravity="bottom"-->
+<!--                android:text="@string/book_preview"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="15sp"-->
+<!--                android:visibility="gone" />-->
+
+        <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                app:fb_borderColor="@color/colorPrimary"
+                fancy:fb_borderWidth="1dp"
+                fancy:fb_defaultColor="@color/colorPrimary"
+                fancy:fb_iconPosition="left"
+                fancy:fb_radius="4dp"
+                fancy:fb_text="@string/read_now"
+                fancy:fb_textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

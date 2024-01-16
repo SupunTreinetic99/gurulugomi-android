@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.treinetic.whiteshark.activity.ConnectionActivity"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    <ImageView android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:src="@drawable/wifi_off"
+            android:contentDescription="TODO" />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/noInternet"
+              android:fontFamily="@font/product_sans_bold"
+              android:textSize="20sp"
+              android:textColor="@color/colorPurchasedPrice"
+              android:layout_marginTop="30dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/product_sans_regular"
+            android:text="@string/noInternetText"
+            android:textColor="#546E7A"
+            android:textSize="16sp" />
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/offlineBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            fancy:fb_text="OFFLINE MODE"
+            fancy:fb_textColor="@color/white"
+            fancy:fb_defaultColor="@color/colorPrimary"
+            fancy:fb_radius="20dp"
+            fancy:fb_textFontRes="@font/product_sans_bold"
+            fancy:fb_textSize="12sp"
+            android:layout_marginTop="100dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+    />
+
+    <TextView
+            android:id="@+id/settingsbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/settings"
+            android:textColor="#DD2C00"
+            android:textSize="16sp" />
+
+
+</LinearLayout>

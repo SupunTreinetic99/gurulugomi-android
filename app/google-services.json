@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "262997767459",
+    "firebase_url": "https://gurulugomi-1553502182032.firebaseio.com",
+    "project_id": "gurulugomi-1553502182032",
+    "storage_bucket": "gurulugomi-1553502182032.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262997767459:android:c2d0c5e6ea83e8a8",
+        "android_client_info": {
+          "package_name": "com.treinetic.whiteshark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262997767459-24qp298rae6qu3ecqt14pt7884vl8hul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treinetic.whiteshark",
+            "certificate_hash": "6bfcddd30c0ed558d05081801aee0067fbee0670"
+          }
+        },
+        {
+          "client_id": "262997767459-7bdce7pouctfd1u3o7cdknjtqnfbtr3c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treinetic.whiteshark",
+            "certificate_hash": "58829ea510aef495582180b1b483913e4ff0b523"
+          }
+        },
+        {
+          "client_id": "262997767459-7rnsddccahg0hutkkl64loe4mjln0r9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treinetic.whiteshark",
+            "certificate_hash": "fa4fae684f8b0ef72b5437e8348436364a214f37"
+          }
+        },
+        {
+          "client_id": "262997767459-8r9kk0vl544mjsosuqtq33n3nr441q6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treinetic.whiteshark",
+            "certificate_hash": "c0019a50820fa9b8a5301016bfcf12f9b4b5bf32"
+          }
+        },
+        {
+          "client_id": "262997767459-9m7m43pt68g62a10u40ek1ols93cq2av.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treinetic.whiteshark",
+            "certificate_hash": "a0be7f4f80928afa8b3163473b867e615c3d269f"
+          }
+        },
+        {
+          "client_id": "262997767459-9p3a404kqge79ra38fkh7o02esuubuo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treinetic.whiteshark",
+            "certificate_hash": "139ee93bdd4f10350d357cd03edf854560199ca2"
+          }
+        },
+        {
+          "client_id": "262997767459-e4c0p2eitsnef264937053bsatrjcb9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treinetic.whiteshark",
+            "certificate_hash": "65cd9464201c31dcb8641fd6d377660ef1f286b9"
+          }
+        },
+        {
+          "client_id": "262997767459-p39vbbpe79a8tce0oimc74tp94nq4tl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.treinetic.whiteshark",
+            "certificate_hash": "3d18fa10cd9061d92d91f2e1d4f939319eb47226"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBApfNLNS-o6G6VYwb25GNXChHnQtgUu6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262997767459-u43gtllmvdm9sn8mivrg0kiubhk3sent.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "262997767459-7pddspdnc2qg7nm1b4st6on3dqijns1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.treinetic.whiteshark"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:context="com.treinetic.whiteshark.fragments.userprofile.UserProfileFragment">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@drawable/user_profile_bkg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/profileImage"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/placeholder_user" />
+
+                    <androidx.cardview.widget.CardView
+                            android:id="@+id/imageUpload"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="end"
+                            app:cardCornerRadius="12sp">
+
+                        <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_camera" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </FrameLayout>
+
+                <TextView
+                        android:id="@+id/userName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                <!--My LIBRARY-->
+                <LinearLayout
+                        android:id="@+id/myLibrary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_mylibrary" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="5"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/my_library"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <TextView
+                            android:id="@+id/myLibrary_count"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="0"
+                            android:textColor="@color/colorProfileList"
+                            android:gravity="end"
+                            android:visibility="gone"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/myLibrary_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:id="@+id/myLibrary_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+                <!--My WISHLIST-->
+                <LinearLayout
+                        android:id="@+id/wishList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_wishlist" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_weight="5"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/my_wish_list"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <TextView
+                            android:id="@+id/myWishList_count"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="0"
+                            android:textColor="@color/colorProfileList"
+                            android:gravity="end"
+                            android:visibility="gone"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/wishList_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:id="@+id/wishList_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+                <!--PROMOTION-->
+                <LinearLayout
+                        android:id="@+id/promotion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_promostion" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/promotions"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/promotion_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico"
+                            android:visibility="invisible" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+                <!--EVOUCHER-->
+                <LinearLayout
+                        android:id="@+id/eVoucher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_baseline_credit_card_24" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="eVoucher"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/eVoucher_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico"
+                            android:visibility="invisible" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+                <!--BPPK PUBLISH INQ-->
+                <LinearLayout
+                        android:id="@+id/bookPublishing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_book_publishing" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/become_author"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/bookPublishing_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico"
+                            android:visibility="invisible" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+
+                <!--EVENT LIST-->
+                <LinearLayout
+                        android:id="@+id/eventList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_event_list" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/event_list"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/eventList_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico"
+                            android:visibility="invisible" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+                <!--PURCHASE HISTORY-->
+                <LinearLayout
+                        android:id="@+id/purchaseHistory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_purchase_history" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/purchase_history"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/purchaseHistory_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:id="@+id/purchaseHistory_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+                <!--DEVICES-->
+                <LinearLayout
+                        android:id="@+id/devices"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/device_icon" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/devices"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/devices_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:id="@+id/devices_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+                <LinearLayout
+                        android:id="@+id/about"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_about_us" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/about_us"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/about_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico"
+                            android:visibility="invisible" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+
+                <!--  TERMS AND CONDITIONS-->
+                <LinearLayout
+                        android:id="@+id/terms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/tnc2" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="Terms and Conditions"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/terms_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico"
+                            android:visibility="invisible" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+                <!--  FAQ-->
+                <LinearLayout
+                        android:id="@+id/faq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/tnc2" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="FAQ"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/faq_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico"
+                            android:visibility="invisible" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+                <View
+                        android:id="@+id/faq_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/colorSeparation" />
+
+
+                <LinearLayout
+                        android:id="@+id/logout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="2dp">
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_log_out" />
+
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/log_out"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="16sp" />
+
+                    <ImageView
+                            android:id="@+id/logout_lock_ico"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity=""
+                            android:src="@drawable/nav_lock_ico" />
+
+                    <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/right_arrow" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                    android:id="@+id/userProfileLinearLayoutSupport"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <LinearLayout
+            android:id="@+id/userProfileLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@drawable/bottom_sheet_shadow" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="15dp"
+                android:paddingTop="10dp">
+
+
+            <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingEnd="10dp"
+                        android:text="Login"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingEnd="10dp"
+                        android:text="Tap to login and enjoy all the features"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+
+            <ImageButton
+                    android:id="@+id/btnUserProfileLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/user_profile_login" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
+

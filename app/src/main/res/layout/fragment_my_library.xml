@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/parentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.treinetic.whiteshark.fragments.library.MyLibraryFragment">
+
+    <com.treinetic.whiteshark.customview.CustomRecyclerView
+            android:id="@+id/myLibraryBooks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?attr/actionBarSize" />
+
+    <FrameLayout
+            android:id="@+id/shop_more_section"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom">
+
+
+        <LinearLayout
+                android:id="@+id/offlineMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#30373f"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:visibility="gone">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/you_are_in_offline"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/onlineMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/colorSuccess"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:visibility="gone"
+
+                >
+
+            <TextView
+                    android:id="@+id/goOnline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Your internet connection is back.Tap here to go online"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/bottomCard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                fancy:cardBackgroundColor="@color/colorPrimary"
+                fancy:cardCornerRadius="0dp"
+                fancy:cardElevation="10dp">
+
+
+            <LinearLayout
+                    android:id="@+id/bottomBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="10dp">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:text="@string/read_more"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:visibility="gone" />
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/shopMoreBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        app:fb_borderColor="@color/colorPrimary"
+                        fancy:fb_borderWidth="1dp"
+                        fancy:fb_defaultColor="@color/colorPrimary"
+                        fancy:fb_iconPosition="left"
+                        fancy:fb_radius="4dp"
+                        fancy:fb_text="@string/shop_more"
+                        fancy:fb_textColor="@color/white" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/gulugomi-latest.iml" filepath="$PROJECT_DIR$/.idea/gulugomi-latest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/gulugomi-latest.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/gulugomi-latest.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/gulugomi-latest.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/gulugomi-latest.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/gulugomi-latest.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/gulugomi-latest.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/gulugomi-latest.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/gulugomi-latest.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/folioreaderSubmodule/folioreader/gulugomi-latest.folioreaderModule.iml" filepath="$PROJECT_DIR$/.idea/modules/folioreaderSubmodule/folioreader/gulugomi-latest.folioreaderModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-shared-kotlin/r2-shared/gulugomi-latest.r2-shared.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-shared-kotlin/r2-shared/gulugomi-latest.r2-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2-streamer-kotlin/r2-streamer/gulugomi-latest.r2-streamer.iml" filepath="$PROJECT_DIR$/.idea/modules/r2-streamer-kotlin/r2-streamer/gulugomi-latest.r2-streamer.iml" />
+    </modules>
+  </component>
+</project>

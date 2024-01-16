@@ -1,0 +1,9 @@
+
+with Signing key generate key hash
+keytool -exportcert -alias alias -keystore /Users/treinetic/projects/GurulugomiApp/keys/keystore | openssl sha1 -binary | openssl base64
+
+Using Google app siging  key generate key hash
+echo 58:82:9E:A5:10:AE:F4:95:58:21:80:B1:B4:83:91:3E:4F:F0:B5:23 | xxd -r -p | openssl base64
+
+sha1
+keytool -list -v -keystore /Users/treinetic/projects/GurulugomiApp/keys/keystore -alias alias

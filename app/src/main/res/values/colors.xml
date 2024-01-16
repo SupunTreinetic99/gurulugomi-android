@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5832</color>
+    <color name="colorTextNoData">#72FF5832</color>
+    <color name="colorPrimaryDark">#EE502D</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#ffffff</color>
+    <color name="whiteTone2">#92ffffff</color>
+    <color name="colorSubTittle">#404040</color>
+    <color name="colorButton">#FF5832</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTittle">#2F383D</color>
+    <color name="colorText">#5C5C5C</color>
+
+    <color name="colorSeparation">#58979797</color>
+
+    <color name="colorRatingStar">#F6C218</color>
+    <color name="colorDotIndecator">#DCDCDC</color>
+    <color name="colorDotSelected">#A09C9C</color>
+    <color name="colorReviewDate">#9B9B9B</color>
+    <color name="colorReviewerName">#1E1C1C</color>
+    <color name="colorProfileList">#b3000000</color>
+
+    <color name="colorPurchasedPrice">#2D2D2D</color>
+    <color name="colorBillingTittle">#4A4A4A</color>
+    <color name="colorBookAuthor">#9B9B9B</color>
+    <color name="colorTextTint">#6dd8d8d8</color>
+
+    <color name="whiteTone">#3bffffff</color>
+    <color name="colorFb">#405AAE</color>
+    <color name="colorApple">#FFFFFF</color>
+    <color name="colorGplus">#DC473A</color>
+    <color name="colorTextArea">#a4d8d8d8</color>
+    <color name="colorAuthor">#1E1C1C</color>
+    <color name="colorFooter">#ededed</color>
+
+    <color name="colorHeaderBkg">#EEEEEE</color>
+
+
+    <color name="colorSuccess">#37C08B</color>
+    <color name="colorDialogSubTittle">#4A4A4A</color>
+    <color name="dateColor">#969696</color>
+
+    //review section colors
+    <color name="defaultDotColor">#D8D8D8</color>
+    <color name="commentTextColor">#ACACAC</color>
+    <color name="timeColor">#696969</color>
+    <color name="rateStarColor">#F5A623</color>
+    <color name="userNameColor">#606060</color>
+    <color name="allReviewTimeColor">#969696</color>
+    <color name="allReviewUserNameColor">#434343</color>
+    <color name="transparent">#00000000</color>
+    <color name="termsColor">#9B9B9B</color>
+
+
+    <color name="textTint">#888888</color>
+    <color name="cartBookName">#666565</color>
+    <color name="discountTextColor">#3D3D3D</color>
+    <color name="cartBackground">#C9FFF1F1</color>
+    <color name="bookSubText">#DEDEDE</color>
+    <color name="pureWhite">#FFFFFF</color>
+
+    <color name="splashPrimaryDark">#053F76</color>
+
+    <color name="searchBarCursorColor">#D81B60</color>
+    <color name="notificationColor">#666565</color>
+
+    <color name="loginTVColor">#898989</color>
+
+    <color name="textField">#f2f2f2</color>
+    <color name="promoChipBg">#828789</color>
+
+    <color name="warnMsg">#FDFFCC</color>
+    <color name="warnTxtMsg">#333333</color>
+
+</resources>

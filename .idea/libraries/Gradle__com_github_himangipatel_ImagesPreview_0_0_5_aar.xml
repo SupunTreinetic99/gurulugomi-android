@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.himangipatel:ImagesPreview:0.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9406410e4058ac7b1739e69942bbc01b/transformed/jetified-ImagesPreview-0.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9406410e4058ac7b1739e69942bbc01b/transformed/jetified-ImagesPreview-0.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9406410e4058ac7b1739e69942bbc01b/transformed/jetified-ImagesPreview-0.0.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

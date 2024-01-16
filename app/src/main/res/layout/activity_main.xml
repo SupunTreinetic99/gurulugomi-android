@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.treinetic.whiteshark.activity.MainActivity"
+        android:orientation="vertical">
+
+    <include layout="@layout/app_bar"
+             android:id="@+id/tool_bar_home"/>
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="6dp"
+                 android:layout_marginTop="-2dp"
+                 android:visibility="gone"
+                 android:id="@+id/progressContainer">
+
+        <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress"
+                android:indeterminate="true"
+                android:scaleY="3"
+                android:alpha="0"/>
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/fragment_view">
+
+    </FrameLayout>
+
+
+</LinearLayout>

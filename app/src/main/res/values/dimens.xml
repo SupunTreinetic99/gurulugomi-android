@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_default">300dp</dimen>
+    <dimen name="height_change">250dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="book_width">120dp</dimen>
+    <dimen name="profile_image_width">128dp</dimen>
+    <dimen name="profile_image_height">192dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="badge_count_textsize">10dp</dimen>
+    <dimen name="textFiledHeight">45dp</dimen>
+    <dimen name="textFiledMarginTop">15dp</dimen>
+    <dimen name="textSize">15sp</dimen>
+    <dimen name="padding">45dp</dimen>
+    <dimen name="padding_tab">60dp</dimen>
+    <dimen name="logoHeight">170dp</dimen>
+    <dimen name="buttonHeight">50dp</dimen>
+    <dimen name="buttonTextSize">16sp</dimen>
+
+</resources>

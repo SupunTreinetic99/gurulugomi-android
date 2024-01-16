@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context="com.treinetic.whiteshark.fragments.orderconfirm.OrderConfirmFragment">
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp">
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:text="@string/billing_details"
+                        android:textColor="@color/colorBillingTittle"
+                        android:textSize="20sp" />
+
+
+                <TextView
+                        android:id="@+id/btnChange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/change"
+                        android:textColor="@color/colorPrimary" />
+
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                        android:id="@+id/billingInfoContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/billingName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:alpha="0.8"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_regular"
+                            android:maxLines="1"
+                            android:textColor="@color/grey_color" />
+
+                    <!--                    <TextView android:layout_width="wrap_content"-->
+                    <!--                              android:layout_height="wrap_content"-->
+                    <!--                              android:layout_marginTop="10dp"-->
+                    <!--                              android:fontFamily="@font/product_sans_regular"-->
+                    <!--                              android:id="@+id/address1"/>-->
+
+                    <!--                    <TextView android:layout_width="wrap_content"-->
+                    <!--                              android:layout_height="wrap_content"-->
+                    <!--                              android:layout_marginTop="5dp"-->
+                    <!--                              android:fontFamily="@font/product_sans_regular"-->
+                    <!--                              android:id="@+id/address2"/>-->
+
+                    <!--                    <TextView android:layout_width="wrap_content"-->
+                    <!--                              android:layout_height="wrap_content"-->
+                    <!--                              android:layout_marginTop="5dp"-->
+                    <!--                              android:id="@+id/city"/>-->
+
+                    <!--                    <TextView android:layout_width="wrap_content"-->
+                    <!--                              android:layout_height="wrap_content"-->
+                    <!--                              android:layout_marginTop="5dp"-->
+                    <!--                              android:id="@+id/country"/>-->
+
+                    <!--                    <TextView android:layout_width="wrap_content"-->
+                    <!--                              android:layout_height="wrap_content"-->
+                    <!--                              android:layout_marginTop="5dp"-->
+                    <!--                              android:id="@+id/zipCode"/>-->
+
+                    <!--                    <TextView-->
+                    <!--                            android:id="@+id/email"-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_marginTop="10dp" />-->
+
+                    <!--                    <TextView-->
+                    <!--                            android:id="@+id/contact"-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_marginTop="5dp" />-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/addBillingDataContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                            android:id="@+id/addBillingDetails"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            fancy:fb_defaultColor="@color/colorPrimary"
+                            fancy:fb_iconPosition="left"
+                            fancy:fb_radius="20dp"
+                            fancy:fb_text="ADD BILLING DETAILS"
+                            fancy:fb_textColor="@color/white"
+                            fancy:fb_textFontRes="@font/product_sans_bold" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorSeparation" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:text="Order Items"
+                        android:textColor="@color/colorBillingTittle"
+                        android:textSize="20sp" />
+
+                <TextView
+                        android:id="@+id/book_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorSeparation" />
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                    android:id="@+id/selected_book_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?attr/actionBarSize" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginTop="2dp"
+                app:cardElevation="10dp">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/btnPayNow"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:clickable="false"
+                        fancy:fb_defaultColor="@color/grey_color"
+                        fancy:fb_iconPosition="left"
+                        fancy:fb_radius="20dp"
+                        fancy:fb_text="PROCEED"
+                        fancy:fb_textColor="@color/white"
+                        fancy:fb_textFontRes="@font/product_sans_bold"
+
+                        />
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/promotionName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/product_sans_bold"
+                            android:gravity="right"
+                            android:maxLines="1"
+                            android:textSize="11sp"
+                            android:textStyle="normal" />
+
+                    <TextView
+                            android:id="@+id/discountPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="00.00 LKR"
+                            android:textColor="@color/discountTextColor"
+                            android:textSize="12sp" />
+
+                    <TextView
+                            android:id="@+id/fullAmount"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/product_sans_bold"
+                            android:gravity="right"
+                            android:textColor="@color/colorProfileList"
+                            android:textSize="18sp"
+
+                            />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="TOKEN" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="386be331-f680-4ba7-8668-f7fdcea08de0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/treinetic/whiteshark/network/Net.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/treinetic/whiteshark/network/Net.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/treinetic/whiteshark/util/Connections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/treinetic/whiteshark/util/Connections.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/bintray/bintrayv1.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/bintray/installv1.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/generated/source/buildConfig/debug/com/folioreader/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/packageDebugResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/packageDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/packageDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/packageDebugResources/merged.dir/values-sk/values-sk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/packageDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/intermediate-jars/debug/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/AppContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/Config$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/Config$AllowedDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/Config$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/FolioReader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/FolioReader$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/FolioReader$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/FolioReader$OnClosedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/FolioReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/Font.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/mediaoverlay/MediaController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/mediaoverlay/MediaController$2$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/mediaoverlay/MediaController$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/mediaoverlay/MediaController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/mediaoverlay/MediaController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/mediaoverlay/MediaController$MediaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/mediaoverlay/MediaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/mediaoverlay/MediaControllerCallbacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/HighLight$HighLightAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/HighLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/HighlightImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/HighlightImpl$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/HighlightImpl$HighlightStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/HighlightImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/TOCLinkWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/dictionary/Audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/dictionary/Dictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/dictionary/DictionaryResults.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/dictionary/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/dictionary/Pronunciations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/dictionary/Senses$DefinitionDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/dictionary/Senses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/dictionary/Wikipedia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/AnchorIdEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/MediaOverlayHighlightStyleEvent$Style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/MediaOverlayHighlightStyleEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/MediaOverlayPlayPauseEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/MediaOverlaySpeedEvent$Speed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/MediaOverlaySpeedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/ReloadDataEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/RewindIndexEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/UpdateHighlightEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/event/WebViewPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/media_overlay/OverlayItems$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/media_overlay/OverlayItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/sqlite/DbAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/sqlite/DictionaryTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/sqlite/FolioDatabaseHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/model/sqlite/HighLightTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/network/TLSSocketFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/activity/ContentHighlightActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/activity/ContentHighlightActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/activity/ContentHighlightActivity$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/activity/ContentHighlightActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/activity/FolioActivityCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/DictionaryAdapter$DictionaryHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/DictionaryAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/FolioPageFragmentAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/FontAdapter$ViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/FontAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter$HighLightAdapterCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter$HighlightHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/HighlightAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/TOCAdapter$TOCCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/TOCAdapter$TOCRowViewHolder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/TOCAdapter$TOCRowViewHolder$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/TOCAdapter$TOCRowViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/adapter/TOCAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/BaseMvpView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/DictionaryCallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/DictionaryTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/HtmlTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/HtmlTaskCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/HtmlUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/OnSaveHighlight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/SaveReceivedHighlightTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/WikipediaCallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/base/WikipediaTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/fragment/DictionaryFragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/fragment/DictionaryFragment$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/fragment/DictionaryFragment$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/fragment/DictionaryFragment$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/fragment/DictionaryFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/fragment/HighlightFragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/fragment/HighlightFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/fragment/TableOfContentFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$Decor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$ItemInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$LayoutParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$MyAccessibilityDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$OnAdapterChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$OnPageChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$PageTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$PagerObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$SavedState$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$SavedState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$SimpleOnPageChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager$ViewPositionComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/DirectionalViewpager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/LoadingView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/LoadingView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/LoadingView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/LoadingView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/LoadingView$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/LoadingView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/StyleableTextView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/UnderlinedTextView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/ui/view/VerticalSeekbar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/HighlightUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/MultiLevelExpIndListAdapter$ExpIndData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/MultiLevelExpIndListAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/ObjectMapperSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/OnHighlightListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/ProgressDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/ReadLocatorListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/SMILParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/ScreenUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/SharedPreferenceUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/StyleableTextView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/folioreader/util/UiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/css/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/andada/Andada-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/andada/Andada-BoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/andada/Andada-Italic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/andada/Andada-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/lato/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/lato/Lato-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/lato/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/lato/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/lora/Lora-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/lora/Lora-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/lora/Lora-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/lora/Lora-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/raleway/Raleway-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/raleway/Raleway-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/raleway/Raleway-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/fonts/raleway/Raleway-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/js/Bridge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/js/jquery-3.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/js/jsface.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/js/rangefix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/js/rangy-classapplier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/js/rangy-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/js/rangy-highlighter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/js/rangy-serializer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_assets/debug/packageDebugAssets/out/js/readium-cfi.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/disappear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/enter_from_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/enter_from_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/exit_to_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/exit_to_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/fadein.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/fadeout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/grow_from_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/grow_from_bottomleft_to_topright.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/grow_from_bottomright_to_topleft.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/grow_from_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/grow_from_topleft_to_bottomright.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/grow_from_topright_to_bottomleft.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/pump_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/pump_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/shrink_from_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/shrink_from_bottomleft_to_topright.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/shrink_from_bottomright_to_topleft.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/shrink_from_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/shrink_from_topleft_to_bottomright.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/shrink_from_topright_to_bottomleft.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/slide_down.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/slide_in_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/slide_out_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/anim/slide_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-hdpi-v4/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/edit_note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/icon_moon_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/icon_moon_sel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/icon_sun_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/icon_sun_sel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/seekbar_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xhdpi-v4/trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xxhdpi-v4/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xxhdpi-v4/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xxxhdpi-v4/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable-xxxhdpi-v4/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/blue_border_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/btn_contents_highlights.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/btn_moon_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/btn_sun_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/content_highlight_back_selector_night_mode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/content_highlight_text_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/dottet_line.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/font_text_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/green_border_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_close_green_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_fast_forward.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_fast_rewind.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_format_underlined.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_highlight_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_minus_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_minus_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_offline_gray_48dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_offline_gray_layer_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_pause.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_play.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_plus_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_plus_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/ic_volume_gray_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/icon_font.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/icons_sroll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/man_speech_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/note_edittext_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/popup.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/red_border_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/round_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/search_thumb_vertical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/shape_highlight_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/shape_highlight_green.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/shape_highlight_pink.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/shape_highlight_yellow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/style_back_color_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/style_text_color_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/thumb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/drawable/transparent_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/action_item_horizontal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/action_item_vertical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/activity_content_highlight.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/activity_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/dialog_edit_notes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/folio_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/folio_page_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/fragment_contents.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/fragment_highlight_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/horiz_separator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/item_dictionary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/item_search_empty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/item_search_failure.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/item_search_init.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/item_search_loading.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/item_search_normal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/item_search_pagination_in_progress.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/layout_dictionary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/layout_wikipedia.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/popup_horizontal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/popup_vertical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/progress_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/row_font.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/row_highlight.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/row_table_of_contents.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/text_selection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/view_audio_player.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/view_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/view_loading.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/layout/view_webview_pager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/menu/menu_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/mipmap-hdpi-v4/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/mipmap-mdpi-v4/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/values-cs/values-cs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/values-ru/values-ru.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/values-sk/values-sk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/values-w820dp-v13/values-w820dp-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/xml/network_security_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/packaged_res/debug/xml/searchable.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/symbols/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/data-container-format-version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/format-version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/gradle-format-version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/outputs/aar/folioreader-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/META-INF/folioreader_debug.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/model/DisplayUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/model/locators/ReadLocator$Companion$CREATOR$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/model/locators/ReadLocator$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/model/locators/ReadLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/model/locators/SearchItemType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/model/locators/SearchLocator$Companion$CREATOR$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/model/locators/SearchLocator$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/model/locators/SearchLocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/network/Gson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/network/Jackson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/network/QualifiedTypeConverterFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/network/R2StreamerApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/FolioActivity$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/FolioActivity$EpubSourceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/FolioActivity$RequestCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/FolioActivity$WhenMappings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/FolioActivity$closeBroadcastReceiver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/FolioActivity$configFolio$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/FolioActivity$onPostCreate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/FolioActivity$searchReceiver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/FolioActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/SearchActivity$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/SearchActivity$ResultCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/SearchActivity$init$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/SearchActivity$onCreateOptionsMenu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/SearchActivity$onCreateOptionsMenu$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/SearchActivity$onCreateOptionsMenu$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/SearchActivity$toolbarOnLayoutChangeListener$1$onLayoutChange$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/SearchActivity$toolbarOnLayoutChangeListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/activity/SearchActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/ListViewType$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/ListViewType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/OnItemClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/SearchAdapter$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/SearchAdapter$EmptyViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/SearchAdapter$FailureViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/SearchAdapter$InitViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/SearchAdapter$LoadingViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/SearchAdapter$NormalViewHolder$WhenMappings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/SearchAdapter$NormalViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/SearchAdapter$PaginationViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/SearchAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/adapter/ViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$WhenMappings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$getUpdatedHighlightId$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$initAnimations$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$initAnimations$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$initWebView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$initWebView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$setHtml$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$webChromeClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment$webViewClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/FolioPageFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$initListeners$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$initListeners$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$initListeners$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$initListeners$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$initListeners$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$initListeners$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$initListeners$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$initListeners$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$onCreateDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment$onStart$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/fragment/MediaControllerFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$configFonts$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$configFonts$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$configFonts$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$configFonts$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$configSeekBar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$inflateView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$inflateView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$inflateView$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$inflateView$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$onViewCreated$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$toggleBlackTheme$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$toggleBlackTheme$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment$toggleBlackTheme$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/ConfigBottomSheetDialogFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioAppBarLayout$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioAppBarLayout$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioAppBarLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioSearchView$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioSearchView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$Companion$WhenMappings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$HorizontalGestureListener$onFling$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$HorizontalGestureListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$LastScrollType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$ScrollListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$SeekBarListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$TextSelectionCb$onPrepareActionMode$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$TextSelectionCb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$TextSelectionCb2$onGetContentRect$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$TextSelectionCb2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$VerticalGestureListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$computeHorizontalScroll$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$computeTextSelectionRect$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$deleteThisHighlight$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$dismissPopupWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$initViewTextSelection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$initViewTextSelection$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$initViewTextSelection$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$initViewTextSelection$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$initViewTextSelection$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$initViewTextSelection$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$initViewTextSelection$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$initViewTextSelection$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$initViewTextSelection$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$onTextSelectionItemClicked$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$onTextSelectionItemClicked$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$setHorizontalPageCount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$setSelectionRect$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$showTextSelectionPopup$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView$toggleSystemUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/FolioWebView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/MediaControllerCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/WebViewPager$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/WebViewPager$GestureListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/WebViewPager$LastGestureType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/WebViewPager$WebViewPagerAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/WebViewPager$init$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/WebViewPager$setCurrentPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/WebViewPager$setPageToFirst$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/WebViewPager$setPageToLast$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/ui/view/WebViewPager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/util/AppUtil$Companion$FileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/util/AppUtil$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/util/AppUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/viewmodels/SearchViewModel$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/viewmodels/SearchViewModel$SearchApiCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/build/tmp/kotlin-classes/debug/com/folioreader/viewmodels/SearchViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/lint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/disappear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/enter_from_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/enter_from_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/exit_to_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/exit_to_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/fadein.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/fadeout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/grow_from_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/grow_from_bottomleft_to_topright.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/grow_from_bottomright_to_topleft.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/grow_from_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/grow_from_topleft_to_bottomright.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/grow_from_topright_to_bottomleft.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/pump_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/pump_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/shrink_from_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/shrink_from_bottomleft_to_topright.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/shrink_from_bottomright_to_topleft.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/shrink_from_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/shrink_from_topleft_to_bottomright.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/shrink_from_topright_to_bottomleft.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/slide_down.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/slide_in_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/slide_out_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/anim/slide_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-hdpi/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-hdpi/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-mdpi/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-mdpi/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xhdpi/edit_note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xhdpi/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xhdpi/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xhdpi/icon_moon_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xhdpi/icon_moon_sel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xhdpi/icon_sun_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xhdpi/icon_sun_sel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xhdpi/seekbar_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xhdpi/trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xxhdpi/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xxhdpi/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xxxhdpi/ic_format_font_black_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable-xxxhdpi/ic_format_font_black_36dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/blue_border_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/btn_contents_highlights.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/btn_moon_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/btn_sun_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/content_highlight_back_selector_night_mode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/content_highlight_text_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/dottet_line.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/font_text_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/green_border_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_close_green_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_fast_forward.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_fast_rewind.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_format_underlined.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_highlight_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_minus_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_minus_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_offline_gray_48dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_offline_gray_layer_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_pause.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_play.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_plus_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_plus_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/ic_volume_gray_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/icon_font.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/icons_sroll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/man_speech_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/note_edittext_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/popup.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/red_border_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/round_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/search_thumb_vertical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/shape_highlight_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/shape_highlight_green.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/shape_highlight_pink.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/shape_highlight_yellow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/style_back_color_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/style_text_color_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/thumb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/drawable/transparent_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/action_item_horizontal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/action_item_vertical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/activity_content_highlight.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/activity_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/dialog_edit_notes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/folio_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/folio_page_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/fragment_contents.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/fragment_highlight_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/horiz_separator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/item_dictionary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/item_search_empty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/item_search_failure.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/item_search_init.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/item_search_loading.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/item_search_normal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/item_search_pagination_in_progress.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/layout_dictionary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/layout_wikipedia.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/popup_horizontal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/popup_vertical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/progress_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/row_font.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/row_highlight.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/row_table_of_contents.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/text_selection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/view_audio_player.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/view_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/view_loading.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/layout/view_webview_pager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/menu/menu_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/res/drawable-hdpi/icon_font.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/res/drawable-mdpi/icon_font.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/res/drawable-xhdpi/icon_font.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/res/drawable-xxhdpi/icon_font.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/res/drawable-xxxhdpi/icon_font.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values-cs/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values-pt-rBR/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values-ru/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values-sk/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values/attrs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values/day_theme.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values/night_theme.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/xml/network_security_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/res/xml/searchable.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/css/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/andada/Andada-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/andada/Andada-BoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/andada/Andada-Italic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/andada/Andada-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/lato/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/lato/Lato-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/lato/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/lato/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/lora/Lora-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/lora/Lora-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/lora/Lora-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/lora/Lora-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/raleway/Raleway-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/raleway/Raleway-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/raleway/Raleway-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/fonts/raleway/Raleway-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/js/Bridge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/js/jquery-3.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/js/jsface.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/js/rangefix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/js/rangy-classapplier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/js/rangy-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/js/rangy-highlighter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/js/rangy-serializer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/assets/js/readium-cfi.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/AppContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/FolioReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/Font.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/mediaoverlay/MediaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/mediaoverlay/MediaControllerCallbacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/DisplayUnit.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/HighLight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/HighlightImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/TOCLinkWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/dictionary/Audio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/dictionary/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/dictionary/DictionaryResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/dictionary/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/dictionary/Pronunciations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/dictionary/Senses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/dictionary/Wikipedia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/event/AnchorIdEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/event/MediaOverlayHighlightStyleEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/event/MediaOverlayPlayPauseEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/event/MediaOverlaySpeedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/event/ReloadDataEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/event/RewindIndexEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/event/UpdateHighlightEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/event/WebViewPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/locators/ReadLocator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/locators/SearchLocator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/media_overlay/OverlayItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/sqlite/DbAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/sqlite/DictionaryTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/sqlite/FolioDatabaseHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/model/sqlite/HighLightTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/network/QualifiedTypeConverterFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/network/R2StreamerApi.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/network/TLSSocketFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/activity/ContentHighlightActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/activity/FolioActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/activity/FolioActivityCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/activity/SearchActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/adapter/DictionaryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/adapter/FolioPageFragmentAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/adapter/FontAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/adapter/HighlightAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/adapter/ListViewType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/adapter/OnItemClickListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/adapter/SearchAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/adapter/TOCAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/adapter/ViewHolder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/BaseMvpView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/DictionaryCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/DictionaryTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/HtmlTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/HtmlTaskCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/HtmlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/OnSaveHighlight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/SaveReceivedHighlightTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/WikipediaCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/base/WikipediaTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/fragment/DictionaryFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/fragment/FolioPageFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/fragment/HighlightFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/fragment/MediaControllerFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/fragment/TableOfContentFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/ConfigBottomSheetDialogFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/DirectionalViewpager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/FolioAppBarLayout.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/FolioSearchView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/FolioWebView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/LoadingView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/MediaControllerCallback.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/StyleableTextView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/UnderlinedTextView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/VerticalSeekbar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/ui/view/WebViewPager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/AppUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/HighlightUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/MultiLevelExpIndListAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/ObjectMapperSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/OnHighlightListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/ProgressDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/ReadLocatorListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/SMILParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/ScreenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/SharedPreferenceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/StyleableTextView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/util/UiUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/main/java/com/folioreader/viewmodels/SearchViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/test/java/com/folioreader/android/EncoderDecoderUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/test/java/com/folioreader/android/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreader/src/test/java/com/folioreader/android/LocatorUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folioreaderSubmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r2-shared-kotlin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r2-streamer-kotlin" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\user\.android\avd\Pixel_2_API_33.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/folioreaderSubmodule/folioreader">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gulugomi-latest" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gulugomi-latest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gulugomi-latest" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="publishing" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gulugomi-latest" type="f1a62948:ProjectNode" />
+                <item name="folioreaderModule" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gulugomi-latest" type="f1a62948:ProjectNode" />
+                <item name="folioreaderModule" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gulugomi-latest" type="f1a62948:ProjectNode" />
+                <item name="folioreaderModule" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="publishing" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="D:\gulugomi-latest\keys\Untitled" />
+    <option name="KEY_ALIAS" value="alias" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$/folioreaderSubmodule" value="80faf683e8ee161be70469746ea6c04f67dc5f13" />
+        <entry key="$PROJECT_DIR$/folioreaderSubmodule/folioreader/r2-streamer-kotlin" value="master" />
+        <entry key="$PROJECT_DIR$/folioreaderSubmodule/r2-shared-kotlin" value="master" />
+        <entry key="$PROJECT_DIR$/r2-shared-kotlin" value="1a1e553c68fd70c8506689838e870043000d1061" />
+        <entry key="$PROJECT_DIR$/r2-streamer-kotlin" value="804953ff24c7af052da43c29f6fbb58458125df9" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/settings.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/versions.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2UvFyemJ0UUTFx6PpcvHtQuhN8x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="BundleExportedModule" value="gulugomi-latest.app" />
+    <property name="ExportApk.ApkPath" value="D:\gulugomi-latest\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewC:/Users/user/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/Toolbar.java_SELECTED" value="Toolbar" />
+    <property name="android-custom-viewC:/Users/user/.gradle/caches/modules-2/files-2.1/com.github.mancj/MaterialSearchBar/0.8.2/6571a83fa9e75a76939f806843a8c1d9cd99e487/MaterialSearchBar-0.8.2-sources.jar!/com/mancj/materialsearchbar/MaterialSearchBar.java_SELECTED" value="MaterialSearchBar" />
+    <property name="android-custom-viewC:/Users/user/AppData/Local/Android/Sdk/sources/android-33/android/widget/LinearLayout.java_SELECTED" value="LinearLayout" />
+    <property name="android-custom-viewC:/Users/user/AppData/Local/Android/Sdk/sources/android-33/android/widget/TextView.java_SELECTED" value="TextView" />
+    <property name="android-custom-viewD:/gulugomi-latest/app/src/main/java/com/treinetic/whiteshark/customview/BookSectionView.kt_SELECTED" value="BookSectionView" />
+    <property name="android-custom-viewD:/gulugomi-latest/app/src/main/java/com/treinetic/whiteshark/customview/BottomLoginSheet.kt_SELECTED" value="BottomLoginSheet" />
+    <property name="android-custom-viewD:/gulugomi-latest/app/src/main/java/com/treinetic/whiteshark/customview/CustomNestedScrollView.kt_SELECTED" value="CustomNestedScrollView" />
+    <property name="android-custom-viewD:/gulugomi-latest/app/src/main/java/com/treinetic/whiteshark/customview/CustomRecyclerView.kt_SELECTED" value="CustomRecyclerView" />
+    <property name="android-custom-viewD:/gulugomi-latest/app/src/main/java/com/treinetic/whiteshark/customview/KeyValueView.kt_SELECTED" value="KeyValueView" />
+    <property name="android-custom-viewD:/gulugomi-latest/app/src/main/java/com/treinetic/whiteshark/customview/LoadingView.kt_SELECTED" value="LoadingView" />
+    <property name="android-custom-viewD:/gulugomi-latest/app/src/main/java/com/treinetic/whiteshark/customview/OfferView.kt_SELECTED" value="OfferView" />
+    <property name="android-custom-viewD:/gulugomi-latest/folioreaderSubmodule/folioreader/src/main/java/com/folioreader/ui/view/DirectionalViewpager.java_SELECTED" value="DirectionalViewpager" />
+    <property name="android-custom-viewD:/gulugomi-latest/folioreaderSubmodule/folioreader/src/main/java/com/folioreader/ui/view/FolioSearchView.kt_SELECTED" value="FolioSearchView" />
+    <property name="android-custom-viewD:/gulugomi-latest/folioreaderSubmodule/folioreader/src/main/java/com/folioreader/ui/view/FolioWebView.kt_SELECTED" value="FolioWebView" />
+    <property name="android-custom-viewD:/gulugomi-latest/folioreaderSubmodule/folioreader/src/main/java/com/folioreader/ui/view/LoadingView.java_SELECTED" value="LoadingView" />
+    <property name="android-custom-viewD:/gulugomi-latest/folioreaderSubmodule/folioreader/src/main/java/com/folioreader/ui/view/StyleableTextView.java_SELECTED" value="StyleableTextView" />
+    <property name="android-custom-viewD:/gulugomi-latest/folioreaderSubmodule/folioreader/src/main/java/com/folioreader/ui/view/UnderlinedTextView.java_SELECTED" value="UnderlinedTextView" />
+    <property name="android-custom-viewD:/gulugomi-latest/folioreaderSubmodule/folioreader/src/main/java/com/folioreader/ui/view/VerticalSeekbar.java_SELECTED" value="VerticalSeekbar" />
+    <property name="android-custom-viewD:/gulugomi-latest/folioreaderSubmodule/folioreader/src/main/java/com/folioreader/ui/view/WebViewPager.kt_SELECTED" value="WebViewPager" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gulugomi-latest" />
+      <recent name="D:\gulugomi-latest\r2-shared-kotlin\r2-shared" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle app:signingReport" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="gulugomi-latest.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gulugomi-latest [app:signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="app:signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.gulugomi-latest [app:signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="386be331-f680-4ba7-8668-f7fdcea08de0" name="Changes" comment="" />
+      <created>1693812402936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693812402936</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/treinetic/whiteshark/fragments/cart/CartFragment.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

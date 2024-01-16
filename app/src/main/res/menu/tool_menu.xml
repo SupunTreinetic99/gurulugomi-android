@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/ic_serach"
+            android:title="@null"
+            app:showAsAction="always" />
+
+    <item
+            android:id="@+id/action_cart"
+            android:icon="@drawable/actionbar_group_icon"
+            android:title="@null"
+            app:showAsAction="always" />
+
+
+    <item
+            android:id="@+id/action_category"
+            android:icon="@drawable/ic_category"
+            android:title="@null"
+            app:showAsAction="always" />
+
+    <item
+            android:id="@+id/action_socialShare"
+            android:icon="@drawable/ic_share"
+            android:title="@null"
+            android:visible="false"
+            app:showAsAction="always" />
+
+    <item
+            android:id="@+id/action_favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="@null"
+            android:visible="false"
+            app:showAsAction="always" />
+
+
+    <item
+            android:id="@+id/action_delete"
+            android:icon="@drawable/ic_bin"
+            android:title="@null"
+            app:showAsAction="always" />
+
+    <item
+            android:id="@+id/action_favorite_fill"
+            android:icon="@drawable/ic_favorite_fill"
+            android:title="@null"
+            android:visible="false"
+            app:showAsAction="always" />
+
+    <item
+            android:id="@+id/action_refresh"
+            android:icon="@drawable/refresh"
+            android:title="@null"
+            android:visible="false"
+            app:showAsAction="always" />
+
+
+</menu>

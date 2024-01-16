@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="30dp">
+
+
+        <ImageView android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:src="@drawable/ic_more"
+                   android:padding="5dp"
+                   android:id="@+id/moreOption"
+                   android:contentDescription="@null"
+                   android:layout_gravity="end"
+                   android:layout_marginEnd="5dp"/>
+
+
+        <!--<com.lijiankun24.shadowlayout.ShadowLayout-->
+        <!--android:layout_width="63dp"-->
+        <!--android:layout_height="63dp"-->
+        <!--app:shadowColor="#66000000"-->
+        <!--app:shadowShape="oval"-->
+        <!--app:shadowDx="0dp"-->
+        <!--app:shadowDy="3dp"-->
+        <!--app:shadowRadius="3dp"-->
+        <!--app:shadowSide="all"-->
+        <!--android:id="@+id/bookShadow"-->
+        <!--android:layout_gravity="center_horizontal">-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="30dp"
+                android:id="@+id/userImage"
+                android:layout_gravity="center_horizontal"/>
+
+        <!--</com.lijiankun24.shadowlayout.ShadowLayout>-->
+    </FrameLayout>
+
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="center_horizontal"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:fontFamily="@font/product_sans_regular"
+                  android:id="@+id/rateValue"/>
+        <RatingBar android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                   android:numStars="1"
+                   android:rating="1.0"
+                   android:progressTint="@color/rateStarColor"
+                   android:layout_marginStart="5dp"
+                   android:id="@+id/rate_rate"/>
+
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:layout_gravity="center_horizontal"
+              android:fontFamily="@font/product_sans_regular"
+              android:textColor="@color/userNameColor"
+              android:id="@+id/rateName"
+              android:textSize="17sp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="20dp"
+              android:layout_marginEnd="20dp"
+              android:fontFamily="@font/product_sans_regular"
+              android:layout_marginTop="10dp"
+              android:id="@+id/rateComment"
+              android:layout_gravity="center_horizontal"
+              android:textColor="@color/commentTextColor"
+              android:textSize="15sp"
+              android:textAlignment="center"
+              android:maxLines="3"
+              android:ellipsize="end"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_gravity="center_horizontal"
+              android:fontFamily="@font/product_sans_regular"
+              android:textColor="@color/timeColor"
+              android:id="@+id/rateDate"
+              android:textSize="13sp"/>
+
+
+</LinearLayout>
+

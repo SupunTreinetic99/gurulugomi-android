@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+                name="model"
+                type="com.treinetic.whiteshark.fragments.orderprocessingflow.paynow.PayNowViewModel" />
+    </data>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parentView"
+            >
+
+        <com.treinetic.whiteshark.customview.LoadingView
+                android:id="@+id/loadingView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <!--        <LinearLayout
+                        android:id="@+id/bottomLoading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-7dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    <ProgressBar
+                            android:id="@+id/progressBar"
+                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:indeterminate="true"
+                            android:indeterminateOnly="true" />
+
+                </LinearLayout>-->
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingStart="15dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp">
+
+            <ImageView
+                    android:id="@+id/btnPayNowBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackground"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_keyboard_backspace_black_24dp" />
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Pay Now"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:paddingEnd="15dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="27dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@{model.totalBeforeDiscount}"
+                    android:textColor="@color/black"
+                    android:textDirection="rtl"
+                    android:textSize="20sp" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="27dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@{model.discount}"
+                    android:textColor="@color/grey_color"
+                    android:textDirection="rtl"
+                    android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <View
+                android:id="@+id/promoDivider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grey_color"
+                android:visibility="visible" />
+
+        <LinearLayout
+                android:id="@+id/promoCodeContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="15dp"
+                android:visibility="visible">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:text="Promo Code"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                <TextView
+                        android:id="@+id/promoCodeChip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/promo_chip_bg"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:text="@{model.promoCodeLabel}"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:visibility="invisible" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:clickable="false"
+                    android:gravity="end"
+                    android:text="@{model.promotionCodeAmount}"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:contentDescription="Add Promo Code"
+                    android:paddingStart="5dp"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/btnPromoCodeClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?actionBarItemBackground"
+                android:clickable="true"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="Clear"
+                android:textColor="@color/grey_color"
+                android:textSize="12sp"
+                android:visibility="invisible" />
+
+        <View
+                android:id="@+id/loyaltyDivider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginHorizontal="15dp"
+                android:background="@color/grey_color"
+                android:visibility="visible" />
+
+
+        <LinearLayout
+                android:id="@+id/loyaltyPointContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="15dp"
+                android:visibility="visible">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:text="Loyalty Points"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:clickable="false"
+                    android:gravity="end"
+                    android:text="@{model.loyaltyPoints}"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:contentDescription="Add Loyalty Points"
+                    android:paddingStart="5dp"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/btnLoyaltyClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?actionBarItemBackground"
+                android:clickable="true"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="Clear"
+                android:textColor="@color/grey_color"
+                android:textSize="12sp"
+                android:visibility="invisible" />
+
+        <View
+                android:id="@+id/eVoucherDivider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginHorizontal="15dp"
+                android:background="@color/grey_color"
+                android:visibility="visible" />
+
+        <LinearLayout
+                android:id="@+id/eVoucherContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="15dp"
+                android:visibility="visible">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="eVoucher"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:clickable="false"
+                    android:gravity="end"
+                    android:text="@{model.eVoucherAmount}"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:contentDescription="Add E-Voucher"
+                    android:paddingStart="5dp"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/btneVoucherClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?actionBarItemBackground"
+                android:clickable="true"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="Clear"
+                android:textColor="@color/grey_color"
+                android:textSize="12sp"
+                android:visibility="invisible" />
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginHorizontal="15dp"
+                android:background="@color/grey_color" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="15dp"
+                android:visibility="gone">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="Discount"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:clickable="false"
+                    android:gravity="end"
+                    android:text="@{model.discount}"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+
+                    />
+
+            <View
+                    android:layout_width="25dp"
+                    android:layout_height="5dp"
+                    android:background="@color/transparent" />
+
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="Clear"
+                android:textColor="@color/grey_color"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginHorizontal="15dp"
+                android:background="@color/grey_color"
+                android:visibility="gone" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="20dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:text="Total Price"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:background="?selectableItemBackground"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="end"
+                    android:text="@{model.totalPrice}"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            <View
+                    android:layout_width="23dp"
+                    android:layout_height="5dp"
+                    android:background="@color/transparent" />
+
+        </LinearLayout>
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                android:id="@+id/btnPayNow"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/circular_border_shape"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Pay Now"
+                android:textColor="@color/white"
+                android:textSize="@dimen/buttonTextSize"
+
+                />
+        <!--    <mehdi.sakout.fancybuttons.FancyButton
+                    android:layout_width="300dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="40dp"
+                    fancy:fb_text="PAY NOW"
+                    android:layout_gravity="center"
+                    fancy:fb_textColor="@color/white"
+                    fancy:fb_defaultColor="@color/colorPrimary"
+                    fancy:fb_radius="23dp"
+                    fancy:fb_textFontRes="@font/product_sans_bold"
+                    android:id="@+id/btnPayNow"
+                    android:foreground="?android:selectableItemBackground"
+                    />-->
+
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

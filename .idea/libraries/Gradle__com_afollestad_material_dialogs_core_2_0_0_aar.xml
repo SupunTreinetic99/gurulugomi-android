@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.afollestad.material-dialogs:core:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/62d841933f1bbab955c0c46678486232/transformed/jetified-core-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/62d841933f1bbab955c0c46678486232/transformed/jetified-core-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/62d841933f1bbab955c0c46678486232/transformed/jetified-core-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.afollestad.material-dialogs/core/2.0.0/a5d5f0098e7be006435eafd3c427c64b33dca7b6/core-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.afollestad.material-dialogs/core/2.0.0/59d04816accded317a1e332a9490ebdede28179d/core-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

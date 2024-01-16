@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fancy="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent" android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:paddingVertical="50dp">
+
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/success_image"
+               android:layout_marginBottom="30dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/success_tittle"
+              android:textColor="@color/colorSuccess"
+              android:textSize="20sp"
+              android:fontFamily="@font/product_sans_bold"
+              android:layout_marginTop="10dp"
+              android:id="@+id/successTittle"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/success_sub_tittle"
+              android:textSize="15sp"
+              android:textColor="@color/colorDialogSubTittle"
+              android:layout_marginTop="25dp"
+              android:layout_marginHorizontal="10dp"
+              android:textAlignment="center"
+              android:id="@+id/message"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            fancy:fb_text="BACK TO LOGIN"
+            fancy:fb_textColor="@color/white"
+            fancy:fb_defaultColor="@color/colorSuccess"
+            fancy:fb_radius="20dp"
+            fancy:fb_textFontRes="@font/product_sans_bold"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_dialog"
+            android:layout_marginHorizontal="40dp"/>
+
+
+</LinearLayout>

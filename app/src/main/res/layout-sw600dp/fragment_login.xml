@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context="com.treinetic.whiteshark.fragments.login.LoginFragment">
+
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:fillViewport="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="@dimen/logoHeight"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/logo4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="30dp"
+                    android:paddingTop="20dp">
+
+                <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/login_textfield_bg"
+                        android:backgroundTint="@color/textField"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint="@string/register_email"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15sp"
+                        android:theme="@style/EditTextTheme" />
+
+
+                <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="@dimen/textFiledMarginTop"
+                        android:background="@drawable/login_textfield_bg"
+                        android:backgroundTint="@color/textField"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint="@string/register_password"
+                        android:inputType="textPassword"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15sp"
+                        android:theme="@style/EditTextTheme" />
+
+
+                <TextView
+                        android:id="@+id/forgotPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="2dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/forgotPassword"
+                        android:textColor="@color/loginTVColor"
+                        android:textSize="12sp" />
+
+                <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                        android:id="@+id/btnLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/buttonHeight"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/circular_border_shape"
+                        android:elevation="10dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/login"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/buttonTextSize"
+                        app:spinning_bar_color="#FFF"
+                        app:spinning_bar_padding="6dp"
+                        app:spinning_bar_width="4dp"
+
+                        />
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="20dp">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_light"
+                            android:text="By login you are agreeing to the"
+                            android:textColor="@color/loginTVColor"
+                            android:textSize="12sp" />
+
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:id="@+id/terms"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:text="Terms and Condition"
+                                android:textColor="@color/termsColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_regular"
+                                android:gravity="center"
+                                android:text=" and "
+                                android:textColor="@color/loginTVColor"
+                                android:textSize="12sp" />
+
+                        <TextView
+                                android:id="@+id/privacy"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:text="Privacy Policy "
+                                android:textColor="@color/termsColor"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+
+                    <FrameLayout
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:padding="5dp">
+
+                        <mehdi.sakout.fancybuttons.FancyButton
+                                android:id="@+id/btnApple"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:elevation="4dp"
+                                fancy:fb_defaultColor="@color/colorApple"
+                                fancy:fb_focusColor="#dddd"
+                                fancy:fb_fontIconResource="@string/icon_apple"
+                                fancy:fb_fontIconSize="20sp"
+                                fancy:fb_iconPosition="left"
+                                fancy:fb_radius="30dp"
+                                fancy:fb_text=""
+                                fancy:fb_textColor="@color/black"
+                                fancy:fb_textFontRes="@font/roboto_regular"
+                                fancy:fb_textSize="28sp" />
+
+                        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                                android:id="@+id/appleLoadingBtn"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/apple_background"
+                                android:backgroundTint="@color/white"
+                                android:elevation="10dp"
+                                android:textColor="@color/grey_color"
+                                android:visibility="invisible"
+                                app:spinning_bar_color="@color/grey_color"
+                                app:spinning_bar_padding="6dp"
+                                app:spinning_bar_width="4dp"
+
+                                />
+
+                    </FrameLayout>
+
+                    <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="match_parent"
+                            android:text="" />
+
+                    <FrameLayout
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:padding="5dp">
+
+                        <mehdi.sakout.fancybuttons.FancyButton
+                                android:id="@+id/btnFacebook"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:elevation="4dp"
+                                fancy:fb_defaultColor="@color/colorFb"
+                                fancy:fb_focusColor="#5577bd"
+                                fancy:fb_fontIconResource="@string/icon_facebook"
+                                fancy:fb_fontIconSize="20sp"
+                                fancy:fb_iconPosition="left"
+                                fancy:fb_radius="30dp"
+                                fancy:fb_text=""
+                                fancy:fb_textColor="#FFFFFF"
+                                fancy:fb_textFontRes="@font/roboto_regular"
+                                fancy:fb_textSize="28sp" />
+
+                        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                                android:id="@+id/fbLoadingBtn"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/fb_background"
+                                android:backgroundTint="@color/colorFb"
+                                android:elevation="10dp"
+                                android:textColor="@color/white"
+                                android:visibility="invisible"
+                                app:spinning_bar_color="#FFF"
+                                app:spinning_bar_padding="6dp"
+                                app:spinning_bar_width="4dp"
+
+                                />
+
+                    </FrameLayout>
+
+
+                    <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="match_parent"
+                            android:text="" />
+
+                    <FrameLayout
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:padding="5dp">
+
+                        <mehdi.sakout.fancybuttons.FancyButton
+                                android:id="@+id/btnGoogle"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:elevation="4dp"
+                                fancy:fb_defaultColor="@color/colorGplus"
+                                fancy:fb_focusColor="#5577bd"
+                                fancy:fb_fontIconResource="@string/icon_gplus"
+                                fancy:fb_fontIconSize="20sp"
+                                fancy:fb_iconPosition="left"
+                                fancy:fb_radius="30dp"
+                                fancy:fb_text=""
+                                fancy:fb_textColor="#FFFFFF"
+                                fancy:fb_textSize="28sp" />
+
+                        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                                android:id="@+id/googleLoadingBtn"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/circular_border_shape"
+                                android:backgroundTint="@color/colorGplus"
+                                android:elevation="10dp"
+                                android:textColor="@color/white"
+                                android:visibility="invisible"
+                                app:spinning_bar_color="#FFF"
+                                app:spinning_bar_padding="6dp"
+                                app:spinning_bar_width="4dp"
+
+                                />
+
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_light"
+                            android:text="@string/account"
+                            android:textColor="@color/loginTVColor"
+                            android:textSize="13sp" />
+
+
+                    <TextView
+                            android:id="@+id/signUp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="@string/register"
+                            android:textColor="@color/loginTVColor"
+                            android:textSize="12sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <ImageButton
+            android:id="@+id/login_back_btn"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_margin="20dp"
+            android:background="?actionBarItemBackground"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrow_left_black_48dp" />
+
+</FrameLayout>

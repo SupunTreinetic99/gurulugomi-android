@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingStart="15dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp">
+
+            <ImageButton
+                    android:id="@+id/btnChangeNumberBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_keyboard_backspace_black_24dp" />
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingStart="15dp"
+                    android:text="Change Number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="22sp" />
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingStart="15dp"
+                android:paddingTop="15dp"
+                android:text="Enter Phone Number"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+        <EditText
+                android:id="@+id/redeemMobileChangeTextField"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/login_textfield_bg"
+                android:backgroundTint="@color/textField"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="0757676767"
+                android:inputType="number"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp"
+                android:theme="@style/EditTextTheme" />
+
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                android:id="@+id/btnConfirmChangeNumberBottomSheet"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/circular_border_shape"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Confirm"
+                android:textColor="@color/white"
+                android:textSize="@dimen/buttonTextSize" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

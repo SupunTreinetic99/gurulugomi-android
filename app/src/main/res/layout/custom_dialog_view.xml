@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="10dp"
+              android:background="@color/white"
+              android:id="@+id/test">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="The Serpent’s FANG"
+              android:textColor="@color/colorBlack"
+              android:textSize="14sp"/>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/colorSeparation"
+          android:layout_marginTop="10dp"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review this book"
+            android:textColor="@color/colorReviewerName"
+            android:textSize="12sp"
+            android:background="@color/white"
+            android:gravity="start|center_vertical"/>
+
+
+</LinearLayout>
+

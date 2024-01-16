@@ -1,0 +1,338 @@
+<resources>
+
+    <string name="gplus_web_client_id" translatable="false">
+        262997767459-24qp298rae6qu3ecqt14pt7884vl8hul.apps.googleusercontent.com
+    </string>
+    <string name="server_client_id" translatable="false">
+        262997767459-u43gtllmvdm9sn8mivrg0kiubhk3sent.apps.googleusercontent.com
+    </string>
+
+    <string name="facebook_app_id" translatable="false">1989388168031505</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1989388168031505</string>
+    <string name="facebook_client_token" translatable="false">d1dcf68d21f455f50ea4a182866be544</string>
+
+    <string name="cart" translatable="false">Cart</string>
+    <string name="no_book_selected" translatable="false">Please select one or more book</string>
+    <string name="no_book_selected_in_wish_list" translatable="false">Please select one or more books (without free books)</string>
+    <string name="wish_list" translatable="false">Wish List</string>
+    <string name="btn_cancel" translatable="false">Cancel</string>
+    <string name="btn_accept" translatable="false">OK</string>
+    <string name="btn_delete" translatable="false">DELETE</string>
+
+
+    <string name="dialog_title" translatable="false">Are you sure ?</string>
+    <string name="dialog_sub_title" translatable="false">After delete,this books will no longer available in cart
+    </string>
+    <string name="wishlist_dialog_sub_title" translatable="false">After delete,this books will no longer available in
+        Wish List
+    </string>
+
+
+    <string name="app_name" translatable="false">Gurulugomi</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="allReviews" translatable="false">All Reviews</string>
+    <string name="read_now" translatable="false">Read Now</string>
+    <string name="book_preview" translatable="false">Like to read few pages before purchase ?</string>
+
+    <string name="purchase_history" translatable="false">Purchase History</string>
+    <string name="my_library" translatable="false">My Library</string>
+    <string name="book_publishing" translatable="false">Book Publishing Inquiry</string>
+    <string name="become_author" translatable="false">Become an Author</string>
+    <string name="publishers" translatable="false">Publishers</string>
+    <string name="authors" translatable="false">Authors</string>
+    <string name="my_wish_list" translatable="false">My Wish List</string>
+    <string name="promotions" translatable="false">Promotions</string>
+    <string name="event_list" translatable="false">Event List</string>
+    <string name="about_us" translatable="false">About Us</string>
+    <string name="devices" translatable="false">Devices</string>
+    <string name="log_out" translatable="false">Log Out</string>
+    <string name="events" translatable="false">Events</string>
+    <string name="order_confirmation" translatable="false">Order Confirmation</string>
+
+    <string name="currency" translatable="false">LKR</string>
+    <string name="cart_total" translatable="false">Total</string>
+
+    <string name="order_details" translatable="false">Purchased Items</string>
+    <string name="book_count" translatable="false">2 Books</string>
+    <string name="term_and_Condition" translatable="false">By login you are agreeing to the
+        Terms, Conditions and the
+    </string>
+    <string name="privacy_policy" translatable="false">Privacy Policy</string>
+
+
+    <string name="icon_gplus" translatable="false">&#xf1a0;</string>
+    <string name="icon_facebook" translatable="false">&#xf09a;</string>
+    <string name="icon_apple" translatable="false">&#xf179;</string>
+
+    <string name="pwd_text" translatable="false">We just need your registered email address
+        to send you a password reset link.
+    </string>
+
+    <string name="read_more" translatable="false">Want to read more books ?</string>
+    <string name="shop_more" translatable="false">Shop More</string>
+    <string name="preview" translatable="false">PREVIEW BOOK</string>
+    <string name="look_inside" translatable="false">LOOK INSIDE</string>
+    <string name="read_sample" translatable="false">READ SAMPLE</string>
+    <string name="shop_more_text" translatable="false">Want to read more books?</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="pick_toppings" translatable="false">pick_toppings</string>
+    <string name="signin" translatable="false">sign in</string>
+    <string name="dialog_tittle" translatable="false">Do you want to delete this books ?</string>
+    <string name="delete_wishlist_dialog_title" translatable="false">Delete Books From Wish List</string>
+    <string name="publish_note" translatable="false">Need a description with the contact details of the section
+        which handles book publishing inquiries
+    </string>
+
+    <string-array name="array_str">
+        <item>Review this book</item>
+    </string-array>
+
+    <string name="see_all" translatable="false">See All</string>
+    <string name="treinetic" translatable="false">Treinetic (pvt) Ltd.
+    </string>
+    <string name="treinetic_email" translatable="false">www.treinetic.com | info@treinetic.com
+    </string>
+    <string name="success_tittle" translatable="false">Account created!</string>
+    <string name="success_sub_tittle" translatable="false">
+        Your Account registration is successful and verification has been sent to the email address provided
+    </string>
+    <string name="forgotPassword" translatable="false">Forgot password ?</string>
+
+
+    <string name="FirstName" translatable="false">First name</string>
+    <string name="LastName" translatable="false">Last name</string>
+    <string name="Email" translatable="false">Email</string>
+    <string name="ContactNumber" translatable="false">Contact Number</string>
+    <string name="Address1" translatable="false">Address 1</string>
+    <string name="Address2" translatable="false">Address 2</string>
+    <string name="City" translatable="false">City</string>
+    <string name="zip_code" translatable="false">Zip Code</string>
+    <string name="country" translatable="false">Country</string>
+    <string name="item_select" translatable="false">Item Selected ( 0 )</string>
+
+    <string name="noInternet" translatable="false">Can\'t Load page</string>
+    <string name="noInternetText" translatable="false">It seems like you are not connected to internet.</string>
+    <string name="share_element_transtition_name" translatable="false">book_image</string>
+
+    <string name="total" translatable="false">Total</string>
+
+    <string name="free" translatable="false">FREE</string>
+
+    <string name="order_no" translatable="false">Order No</string>
+    <string name="order_date" translatable="false">Order Date</string>
+    <string name="order_items" translatable="false">Items</string>
+    <string name="order_amount" translatable="false">Total</string>
+
+    <string name="sub_total" translatable="false">Sub Total</string>
+    <string name="discount" translatable="false">Discount :</string>
+
+
+    <string name="register_name" translatable="false">Name</string>
+    <string name="register_password" translatable="false">Password</string>
+    <string name="register_email" translatable="false">Email</string>
+    <string name="confirm_password" translatable="false">Confirm Password</string>
+
+    <string name="register" translatable="false">Register</string>
+
+    <string name="description" translatable="false">Description</string>
+    <string name="type" translatable="false">Type</string>
+    <string name="my_review" translatable="false">My Review</string>
+    <string name="top_review" translatable="false">Top Reviews</string>
+    <string name="pages" translatable="false">Pages</string>
+    <string name="hard_copy" translatable="false">Hard Copy</string>
+    <string name="request" translatable="false">Request</string>
+
+    <string name="settings" translatable="false">Settings</string>
+    <string name="review_hint" translatable="false">What do you think about this book?</string>
+    <string name="read_now_btn" translatable="false">READ NOW</string>
+
+    <string name="review" translatable="false">Review</string>
+    <string name="all_reviews" translatable="false">Reviews</string>
+    <string name="bottom_text" translatable="false">What do you think of this book?</string>
+    <string name="review_success" translatable="false">Review Added Successfully.</string>
+    <string name="review_edit_success" translatable="false">Review Edited Successfully</string>
+
+    <string name="edit" translatable="false">Edit</string>
+    <string name="delete" translatable="false">Delete</string>
+
+    <string name="cart_error" translatable="false">Please select on or more book.</string>
+    <string name="have_account" translatable="false">DON’T HAVE AN ACCOUNT ?</string>
+    <string name="register_now" translatable="false">Register Now</string>
+    <string name="success" translatable="false">SUCCESS</string>
+    <string name="required" translatable="false">Field Required</string>
+
+    <string name="company_name" translatable="false">M.D GUNASENA</string>
+    <string name="app_version" translatable="false">Version 2.0.0</string>
+    <string name="company_message" translatable="false">Need a very short message for the readers</string>
+    <string name="company_email" translatable="false">www.mdgunasena.com</string>
+    <string name="solution_by" translatable="false">Software Solution by</string>
+
+    <string name="device_title" translatable="false">Devices</string>
+    <string name="login" translatable="false">LOGIN</string>
+    <string name="login_lowercase" translatable="false">Login</string>
+    <string name="register_btn" translatable="false">REGISTER</string>
+    <string name="billing_details" translatable="false">Billing Details</string>
+    <string name="change" translatable="false">Change</string>
+    <string name="this_device" translatable="false">(This Device)</string>
+    <string name="reset_message" translatable="false">Password reset instructions will send to the email if your email
+        already registered with us.
+    </string>
+    <string name="activation_message" translatable="false">Your account hasn`t been activated yet.Activation link has
+        been sent to your email address.
+    </string>
+    <string name="device_remove_dialog_message_1" translatable="false">Do you want to remove</string>
+    <string name="device_remove_dialog_message_2" translatable="false">
+        You are currently signed in from this device, if you proceed you will get signed out.
+    </string>
+    <string name="end_time" translatable="false">End Time :</string>
+    <string name="start_time" translatable="false">Start Time :</string>
+    <string name="nav_website" translatable="false">Web Link</string>
+    <string name="not_march" translatable="false">Both passwords should be same</string>
+    <string name="getting_ready" translatable="false">Getting Ready Your Book</string>
+    <string name="book_being_downloaded" translatable="false">Book is being downloaded</string>
+    <string name="preparing_file" translatable="false">Preparing Files</string>
+    <string name="waiting_for_files" translatable="false">Waiting for the files</string>
+    <string name="cancel_download" translatable="false">Cancel</string>
+    <string name="not_email" translatable="false">Email not valid</string>
+    <string name="invalid_password" translatable="false">Password should be at least 8 characters long</string>
+    <string name="invalid_name_length" translatable="false">Name has to be exactly 50 characters less</string>
+    <string name="invalid_email" translatable="false">Please provide a valid email address</string>
+    <string name="invalid_credential" translatable="false">Username or Password incorrect</string>
+    <string name="user_not_activated" translatable="false">User has not been activated yet</string>
+    <string name="send" translatable="false">SEND EMAIL</string>
+    <string name="upper_email" translatable="false">EMAIL</string>
+    <string name="check_inbox" translatable="false">Check your inbox</string>
+    <string name="email_require" translatable="false">Email Required</string>
+    <string name="isbn" translatable="false">ISBN</string>
+    <string name="no_data" translatable="false">No Results Found</string>
+    <string name="delete_review" translatable="false">Delete review</string>
+    <string name="delete_review_messgae" translatable="false">Do you want to delete this review ?</string>
+    <string name="delete_review_success" translatable="false">Review successfully deleted</string>
+    <string name="billing_details_success" translatable="false">Billing Details successfully Added</string>
+    <string name="you_are_in_offline" translatable="false">You are in
+        offline mode. You can enjoy the books you have downloaded without internet connection
+    </string>
+    <string name="not_available_in_offline" translatable="false">Not available in offline</string>
+    <string name="this_book_is_not_available" translatable="false">This book not available in offline mode. Please
+        download this book when you have the internet connection
+    </string>
+
+    <string name="offline_mode" translatable="false">Offline mode</string>
+    <string name="this_action_is_not_allowed" translatable="false">This action is not allowed in offline mode</string>
+    <string name="device_limit" translatable="false">Device limit exceeded</string>
+    <string name="or" translatable="false">OR</string>
+    <string name="account" translatable="false">Don`t have an account ?</string>
+    <string name="already_have" translatable="false">Already have an account ?</string>
+    <string name="remove_success" translatable="false">successfully removed from cart .</string>
+    <string name="remove_success_wishlist" translatable="false">successfully removed from Wish List.</string>
+    <string name="activation_email" translatable="false">ACTIVATION_EMAIL_SENT</string>
+    <string name="search_result" translatable="false">Search Results</string>
+    <string name="add_wishlist" translatable="false">Successfully added to Wish List</string>
+    <string name="remove_wishlist" translatable="false">Removed From Wish List</string>
+    <string name="lorem" translatable="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s
+        with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker
+        including versions of Lorem Ipsum.
+    </string>
+
+    <string name="become_author_1" translatable="false">
+        As a publisher, the company is a market leader in today’s consumer publishing industry. Our imprint has become a
+        hallmark for quality literature. The company creates and manages intellectual property, which it promotes and
+        sells
+        to customers to educate and entertain. The Company delivers content in various forms and through multiple
+        channels,
+        both locally and globally.
+    </string>
+
+    <string name="become_author_2" translatable="false">
+        The division constantly strives to publish prestigious authors, commission works of excellence and originality.
+        M. D. GUNASENA publishes approximately 400 titles annually. Our publications are frequent winners and nominees
+        for some of the country’s most esteemed literary awards.
+    </string>
+
+    <string name="become_author_3" translatable="false">
+        The company has also taken an industry leadership position by venturing into e-publications. We have developed
+        our own e-Reader and continue to convert our publications to work over diverse electronic platforms. The e-book
+        platform has inspired emerging, new authors to use it as a channel for publishing due to its low investment
+        expenditures associated with e-book publishing and distribution.
+    </string>
+
+    <string name="become_author_4" translatable="false">
+        If your aspiration is to become a legendary author, you could proceed, by initially, forwarding us your complete
+        manuscript, in either, Sinhala, Tamil or English, presenting and discussing proposals for publishing. M. D.
+        GUNASENA paves the way for you to publish your first e-book and sell virtual copies of your book online.
+    </string>
+
+    <string name="become_author_5" translatable="false">
+        If you are creative and confident and have the ability to meet our expectations, please feel free to contact us.
+    </string>
+
+    <string name="become_author_6" translatable="false">
+        For further information on Publishing your next Book, please contact us on
+    </string>
+
+    <string name="become_author_contact" translatable="false">
+        +94 713095867
+    </string>
+
+    <string name="become_author_email" translatable="false">
+        publishinginfo@mdgunasena.com
+    </string>
+
+    <string name="about_description_1" translatable="false">
+        Since 1913, M. D. GUNASENA has become an established household name that resonates in the hearts and minds of people, as a trusted brand synonymous with education. Sovereign in ownership and true to its founding ethos, we hold ourselves accountable to one principle, our Vision: the
+        advancement of human thought. Today, our core business is in Publishing, Printing, Book selling and Education. 2013 marked a significant milestone
+        for the company; our 100th anniversary and the start of our second century.
+        \n\nWe\u0020 just ventured into developing the first functional e-Pub Application which is a significant milestone for the Company which continues to set trends
+        and lead innovation in the industry. The Gurulugomi Application was named after the renown 12th Century Literary Figure whose works continues to
+        influence literature even today.
+        \n\nThe\u0020 Gurulugomi is cloud based online e-book store. Use this webstore to purchase your favourite books and access the Gurulugomi App Reader from
+        any Android and iOs driven device to read. Now all our customers have access to their favorite Sri Lankan literature at the press of a button.
+    </string>
+    <string name="about_desc_1" translatable="false">
+        Since 1913, M. D. GUNASENA has become an established household name that resonates in the hearts and minds of people, as a trusted brand synonymous with education. Sovereign in ownership and true to its founding ethos, we hold ourselves accountable to one principle, our Vision: the
+        advancement of human thought. Today, our core business is in Publishing, Printing, Book selling and Education. 2013 marked a significant milestone
+        for the company; our 100th anniversary and the start of our second century.
+    </string>
+
+    <string name="about_desc_2" translatable="false">
+        We just ventured into developing the first functional e-Pub Application which is a significant milestone for the Company which continues to set trends
+        and lead innovation in the industry. The Gurulugomi Application was named after the renown 12th Century Literary Figure whose works continues to
+        influence literature even today.
+    </string>
+
+    <string name="about_desc_3" translatable="false">
+       The Gurulugomi is cloud based online e-book store. Use this webstore to purchase your favourite books and access the Gurulugomi App Reader from
+        any Android and iOs driven device to read. Now all our customers have access to their favorite Sri Lankan literature at the press of a button.
+    </string>
+
+    <string name="image_epub_message" translatable="false">
+        Please note that Night Vision, Font Size Increase and Highlighting is not applicable when reading an Image Epub.
+        An Image epub has been developed by us to resolve certain issues associated with the use of Sinhala Fonts and
+        embedded design graphics
+    </string>
+    <string name="error_msg" translatable="false">Something went wrong</string>
+    <string name="start_date" translatable="false">Start Date</string>
+    <string name="end_date" translatable="false">End Date</string>
+    <string name="free_book_messsage" translatable="false">This is a Free book. You have to follow the normal book purchase procedure to add this book to your library</string>
+    <string name="upload_image_permission_denied_message" translatable="false">Permission denied.Please grant required permission to update the profile image</string>
+    <string name="permission_we_request" translatable="false">Permissions we request from the users and why</string>
+    <string name="permission_rationale_message" translatable="false">
+         \"Access photos, media and files\" - we need permission to store books you read.
+    </string>
+
+    <string name="bottomLoginSheet" translatable="false">Log in to enjoy all features</string>
+    <string name="translators" translatable="false">Translators</string>
+
+    <string name="remove_devices" translatable="false">Remove Devices</string>
+    <string name="reached_the_device_limit" translatable="false">You have reached the device limit.</string>
+    <string name="reached_the_device_limit_msg" translatable="false">Sign Out of one of the devices to continue.</string>
+
+
+</resources>

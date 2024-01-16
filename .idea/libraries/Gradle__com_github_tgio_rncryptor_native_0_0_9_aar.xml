@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tgio:rncryptor-native:0.0.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5eeb45ac4c2e4c086058c9f8c2d8cbc0/transformed/jetified-rncryptor-native-0.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5eeb45ac4c2e4c086058c9f8c2d8cbc0/transformed/jetified-rncryptor-native-0.0.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5eeb45ac4c2e4c086058c9f8c2d8cbc0/transformed/jetified-rncryptor-native-0.0.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tgio/rncryptor-native/0.0.9/c5584d61ce259892ad9be97d186d4e14c7c637b0/rncryptor-native-0.0.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tgio/rncryptor-native/0.0.9/daba6b7fd19e887aecfe6e3b6370ef11f24809db/rncryptor-native-0.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
